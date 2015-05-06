@@ -94,7 +94,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SDM\SDMLocator\SDMLocator;C:\opencv2.49\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\opencv2.49\build\include;..\..\FaceMakeup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\opencv2.49\build\x64\vc11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -102,18 +102,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="delaunay.cpp" />
     <ClCompile Include="faceMakeup.cpp" />
-    <ClCompile Include="imgwarp_mls.cpp" />
-    <ClCompile Include="imgwarp_piecewiseaffine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PoseCorrect.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="delaunay.h" />
     <ClInclude Include="faceMakeup.h" />
-    <ClInclude Include="imgwarp_mls.h" />
-    <ClInclude Include="imgwarp_piecewiseaffine.h" />
     <ClInclude Include="PoseCorrect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

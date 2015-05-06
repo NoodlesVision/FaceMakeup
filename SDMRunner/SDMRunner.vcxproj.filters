@@ -21,30 +21,12 @@
     <ClCompile Include="PoseCorrect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="delaunay.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="imgwarp_mls.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="imgwarp_piecewiseaffine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="faceMakeup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PoseCorrect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="delaunay.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="imgwarp_mls.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="imgwarp_piecewiseaffine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="faceMakeup.h">
